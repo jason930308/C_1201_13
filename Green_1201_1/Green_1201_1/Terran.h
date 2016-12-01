@@ -23,7 +23,7 @@ public:
 
 	// 자식클래스들이 공통적으로 재정의하여 각각 구현.
 	// --> 순수 가상함수로 선언
-	virtual void mover() = 0;
+	virtual void move() = 0;
 	virtual void attack() = 0;
 	
 };
